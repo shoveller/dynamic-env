@@ -23,10 +23,10 @@ jobs:
           echo "VITE_B=${{ secrets.VITE_B }}" >> .env
 
       - name: Install dependencies
-        run: pnpm i
+        run: npm i
 
       - name: Build project
-        run: pnpm build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v4
