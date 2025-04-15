@@ -4,7 +4,7 @@ import './index.css'
 import App from './App.tsx'
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 
-const router = createBrowserRouter(createRoutesFromElements(<Route path='/' element={<App />} />), { basename: 'dynamic-env'})
+const router = createBrowserRouter(createRoutesFromElements(<Route path='/' element={<App />} />), { basename: '/dynamic-env'})
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
