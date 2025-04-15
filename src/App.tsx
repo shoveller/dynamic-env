@@ -3,8 +3,8 @@ import './App.css'
 function App() {
   return (
     <>
-      {import.meta.env.VITE_A}
-      {import.meta.env.VITE_B}
+      <p>VITE_A: {import.meta.env.VITE_A}</p>
+      <p>VITE_B: {import.meta.env.VITE_B}</p>
     </>
   )
 }
